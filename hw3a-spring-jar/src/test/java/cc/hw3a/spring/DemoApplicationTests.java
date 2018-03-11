@@ -1,4 +1,4 @@
-package cc.hw3a.hw3aspringjar;
+package cc.hw3a.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
