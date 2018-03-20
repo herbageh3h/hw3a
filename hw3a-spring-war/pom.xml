@@ -69,9 +69,12 @@
 				<artifactId>flyway-maven-plugin</artifactId>
                 <version>5.0.7</version>
                 <configuration>
-                    <url>jdbc:mysql://127.0.0.1:3306/hw3a</url>
+                    <url>jdbc:mysql://127.0.0.1:3306/hw3a?useSSL=false</url>
                     <user>hw3a</user>
                     <password>Shooter#123</password>
+                    <locations>
+                        <location>filesystem:sql</location>
+                    </locations>
                 </configuration>
             </plugin>
 		</plugins>
