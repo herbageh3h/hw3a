@@ -64,6 +64,16 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+            <plugin>
+				<groupId>org.flywaydb</groupId>
+				<artifactId>flyway-maven-plugin</artifactId>
+                <version>5.0.7</version>
+                <configuration>
+                    <url>jdbc:mysql://127.0.0.1:3306/hw3a</url>
+                    <user>hw3a</user>
+                    <password>Shooter#123</password>
+                </configuration>
+            </plugin>
 		</plugins>
         <finalName>hw3a-spring-war</finalName>
 	</build>
