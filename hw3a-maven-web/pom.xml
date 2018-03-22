@@ -4,6 +4,7 @@
   <groupId>cc.hw3a</groupId>
   <artifactId>hw3a-maven-web</artifactId>
   <packaging>war</packaging>
+
   <version>0.0.1</version>
   <name>hw3a-maven-web Maven Webapp</name>
   <url>http://maven.apache.org</url>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cc.hw3a</groupId>
@@ -12,8 +11,9 @@
 	<description>hw3a: Huang, Wan, Andy and Amy</description>
 
     <modules>
+        <module>hw3a-maven-jar</module>
         <module>hw3a-maven-web</module>
         <module>hw3a-spring-jar</module>
         <module>hw3a-spring-war</module>
-    </modules>
+  </modules>
 </project>
